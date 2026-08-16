@@ -5,7 +5,7 @@ Voidling Re-breeder is a simple Lua script designed to allow Wranglers to immedi
 
 ## Usage
 1. Collect the eggs from a completed breed.
-2. Immediately open the breeding GUI again and load it with the same breeding pair.
+2. Immediately opens the breeding GUI again and load it with the same breeding pair.
 3. You either confirm the breed or change out the pair for a new one.
 
 ## Requirements
@@ -34,5 +34,5 @@ Voidling Re-breeder is a simple Lua script designed to allow Wranglers to immedi
 - A hard-coded delay was required to make this functional. If it does not work for you, open the main.lua file in Notepad or other basic text editors, find this line: `ExecuteWithDelay(2400, function()` and increase 2400 (ms) to a higher number. The delay should be slightly longer than the amount of time it takes for the breeding GUI to appear on screen.
 
 ## Credits
-- Tripsette for providing the custom AOB Signature that made modding with UE4SS possible ([his mod here](https://www.nexusmods.com/voidlingbound/mods/5))
+- Tripsette for providing the custom AOB Signature that made modding with UE4SS possible ([their mod here](https://www.nexusmods.com/voidlingbound/mods/5))
 - UE4SS team for the tools to mod with Unreal Engine-based games
